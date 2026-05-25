@@ -1,22 +1,26 @@
 # Dependencias
 node_modules/
+client/node_modules/
+server/node_modules/
 
 # Variables de entorno
 .env
+client/.env
+server/.env
 
-# Archivos de build
-dist/
+# Builds
 build/
+dist/
 
-# Archivos del sistema
-.DS_Store
-Thumbs.db
+# Archivos cargados por usuarios
+uploads/
+server/uploads/
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Uploads pesados o archivos cargados por usuarios
-server/uploads/
-uploads/
+# Sistema
+.DS_Store
+Thumbs.db
